@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1e1e2f;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 3em;
+        animation: glow 1.5s infinite alternate;
+      }
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 5px #ffffff, 0 0 10px #ff8c00, 0 0 15px #ff8c00;
+        }
+        to {
+          text-shadow: 0 0 10px #ffffff, 0 0 20px #ff4500, 0 0 30px #ff4500;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Cool Zone!</h1>
+  </body>
+</html>
+
